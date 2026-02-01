@@ -1,0 +1,78 @@
+02.01 15:40
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pulau Pandang | Wisata Alam Tropis</title>
+  <meta name="description" content="Pulau Pandang adalah destinasi wisata tropis dengan pantai indah dan laut jernih.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS External -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#beranda">Beranda</a></li>
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#galeri">Galeri</a></li>
+    <li><a href="#video">Video</a></li>
+  </ul>
+</nav>
+
+<header id="beranda">
+  <iframe
+    src="https://www.youtube.com/embed/WbFQMuTmndk?autoplay=1&mute=1&loop=1&playlist=WbFQMuTmndk&controls=0"
+    allow="autoplay; fullscreen">
+  </iframe>
+
+  <div class="hero">
+    <h1>Pulau Pandang</h1>
+    <p>Surga tropis tersembunyi dengan laut jernih dan panorama yang memukau</p>
+  </div>
+</header>
+
+<section id="tentang">
+  <h2>Tentang Pulau Pandang</h2>
+  <p class="center-text">
+    Pulau Pandang merupakan destinasi wisata alam yang menawarkan pantai indah,
+    laut biru jernih, serta suasana damai untuk liburan.
+  </p>
+</section>
+
+<section id="galeri">
+  <h2>Galeri Pulau</h2>
+  <div class="gallery">
+    <img src="gambar1.jpg" alt="Pantai Pulau Pandang">
+    <img src="gambar2.jpg" alt="Laut Jernih Pulau Pandang">
+    <img src="gambar3.jpg" alt="Pemandangan Alam Pulau Pandang">
+  </div>
+</section>
+
+<section id="video">
+  <h2>Video Keindahan Pulau</h2>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/WbFQMuTmndk"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Pulau Pandang. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
